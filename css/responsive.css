@@ -1,0 +1,177 @@
+@media (max-width:1267px) {
+    .right-content {
+        width: 60vh;
+    }
+
+    #solar-system {
+        margin-left: 2%;
+        margin-right: 0;
+    }
+
+    .center-content {
+        justify-content: start;
+    }
+}
+
+@media (max-width:1050px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .center-content {
+        width: 100%;
+        height: 25vh;
+        justify-content: center;
+    }
+
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .left-content {
+        display: none;
+    }
+
+    .left-content.active {
+        display: none;
+    }
+
+    .left-content-responsive.active {
+        display: block;
+        height: 50vh;
+        width: 30vh;
+        color: rgb(255, 255, 255);
+        border: 0.5px solid rgba(136, 134, 134, 0.808);
+        background-color: rgba(22, 31, 68, 0.774);
+        transform: translateX(0px);
+    }
+
+    .left-content-responsive a {
+        text-decoration: none;
+        font-style: normal;
+        cursor: default;
+        color: white;
+    }
+
+    .left-content-responsive {
+        z-index: 100;
+        width: 30vh;
+        display: block;
+        height: 50vh;
+        transform: translateX(-30vh);
+        border: none;
+        transition: linear;
+        transition-duration: 1s;
+        background-color: rgba(22, 31, 68, 0.336);
+    }
+
+    .left-content-responsive h2 {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .left-content-responsive .btn-off-responsive {
+        margin-left: 20.5%;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .left-content-responsive .btn-off-responsive button {
+        rotate: 180deg;
+        position: absolute;
+        width: 20%;
+        background-color: rgba(0, 14, 68, 0.733);
+        color: white;
+        border: 2.3px dashed rgba(136, 134, 134, 0.808);
+        border-radius: 20%;
+
+    }
+
+    .left-content-responsive .btn-off-responsive button:hover {
+        background-color: rgba(16, 48, 177, 0.733);
+    }
+
+    .left-content-responsive.active button {
+        rotate: 360deg;
+    }
+
+    .left-content-responsive li {
+        font-size: 120;
+        margin-top: 2%;
+        text-decoration: underline;
+    }
+
+    .left-content-responsive li:hover {
+        cursor: pointer;
+    }
+
+    .right-content {
+        margin-bottom: 0;
+        bottom: -20vh;
+        position: absolute;
+        padding: 0.5% 1% 0.5% 1%;
+        display: block;
+        border-top: 2px solid rgba(255, 255, 255, 0.753);
+        width: 100%;
+        height: 60vh;
+        background-color: rgba(22, 31, 68, 0.384);
+    }
+
+    footer {
+        bottom: -15vh;
+        margin-top: 23vh;
+        display: block;
+        justify-content: end;
+    }
+
+    footer address {
+        width: 95%;
+    }
+
+    #solar-system {
+        z-index: -99;
+    }
+
+    #neptune-orbit {
+        z-index: 120;
+    }
+
+    .profil-img-responsive{
+        padding-top: 0%;
+        display: none;
+        position: absolute;
+        justify-content: end;
+        width: 100%;
+        z-index: 80;
+        
+    }
+
+    .profil-img-responsive img{
+        width:20vh;
+        border: 2px rgba(112, 112, 112, 0.692) solid;
+    }
+
+    .JS-output{
+        font-size: 90%;
+    }
+}
+
+@media (max-width:560px) {
+    .profil-img-responsive{
+        padding-top: 5%;
+        display: none;
+        position: absolute;
+        justify-content: center;
+        width: 100%;
+        z-index: -1;
+        
+    }
+
+    #solar-system{
+        position: absolute;
+        width: 100vw;
+        height: 100vw;
+    }
+}

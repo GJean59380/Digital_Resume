@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web CV Guillaume Jean</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/solar-system.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script src="./js/scripts.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenue sur mon CV</h1>
+    </header>
+
+    <main>
+        <div class="content">
+
+            <div id="left-menu" class="left-content">
+                <div class="btn-off">
+                    <button onclick="toggleMenu()">&#60&#60</button>
+                </div>
+                <h2 class="list-name">Menu</h2>
+                <p>Selectionnez une planète</p>
+                <ul>
+                    <a href="#"><li>Soleil = N/A</li></a>
+                    <a href="#"><li>Mercure = Accueil</li></a>
+                    <a href="#"><li>Venus = Profil</li></a>
+                    <a href="#"><li>La Terre = Parcours scolaire</li></a>
+                    <a href="#"><li>Mars = Compétences</li></a>
+                    <a href="#"><li>Jupiter = Expériences professionnelles</li></a>
+                    <a href="#"><li>Saturne = Projets</li></a>
+                    <a href="#"><li>Uranus = Liens</li></a>
+                    <a href="#"><li>Neptune = Contact</li></a>
+                </ul>
+            </div>
+
+            <div id="left-menu-responsive" class="left-content-responsive">
+                <div class="btn-off-responsive">
+                    <button onclick="toggleMenuResponsive()">&#60&#60</button>
+                </div>
+                <h2 class="list-name">Menu</h2>
+                <ul>
+                    <li onclick="mercureContent()">Accueil</li>
+                    <li onclick="venusContent()">Profil</li>
+                    <li onclick="earthContent()">Parcours scolaire</li>
+                    <li onclick="marsContent()">Compétences</li>
+                    <li onclick="jupiterContent()">Expérience professionnelle</li>
+                    <li onclick="saturneContent()">Projets</li>
+                    <li onclick="uranusContent()">Liens</li>
+                    <li onclick="neptuneContent()">Contact</li>
+                </ul>
+            </div>
+
+
+
+
+            <div class="center-content">
+                <div id="solar-system">
+
+                    <img src="./img/sun.png" alt="" class="sun-planet">
+
+                    <div onclick="mercureContent()" id="mercure-orbit">
+                        <img src="./img/mercure.png" alt="" class="mercure-planet">
+                    </div>
+
+                    <div id="venus-orbit">
+                        <img onclick="venusContent()" src="./img/venus.png" alt="" class="venus-planet">
+                    </div>
+
+                    <div id="earth-orbit">
+                        <img onclick="earthContent()" src="./img/earth.png" alt="" class="earth-planet">
+                    </div>
+
+                    <div id="mars-orbit">
+                        <img onclick="marsContent()" src="./img/mars.png" alt="" class="mars-planet">
+                    </div>
+
+                    <div id="asteroid-belt-orbit">
+                        <img src="./img/asteroid-belt.png" class="asteroid-belt" alt="">
+                    </div>
+
+                    <div id="jupiter-orbit">
+                        <img onclick="jupiterContent()" src="./img/jupiter.png" alt="" class="jupiter-planet">
+                    </div>
+
+                    <div id="saturne-orbit">
+                        <img onclick="saturneContent()" src="./img/saturne.png" alt="" class="saturne-planet">
+                    </div>
+
+                    <div id="uranus-orbit">
+                        <img onclick="uranusContent()" src="./img/uranus.png" alt="" class="uranus-planet">
+                    </div>
+
+                    <div id="neptune-orbit">
+                        <img onclick="neptuneContent()" src="./img/neptune.png" alt="" class="neptune-planet">
+                    </div>
+                </div>
+            </div>
+
+            <div class="profil-img-responsive">
+                <img src="./img/guillaume.jean@epitech.eu.jpg" alt="">
+            </div>
+
+            <div class="right-content">
+                <div id="side-window">
+                    <p id="log" class="JS-output"></p>
+                </div>
+            </div>
+
+    </main>
+
+    <footer>
+        <address>Réalisé par Guillaume Jean <br>
+            Etudiant en pré-MSC à Epitech</address>
+    </footer>
+</body>
+
+</html>
