@@ -44,5 +44,5 @@ function uranusContent() {
 }
 
 function neptuneContent() {
-    document.getElementById('log').innerHTML = '<h3>Contactez-moi :</h3><p>Par téléphone : <a href="tel+330688506436">0688506436</a><br><br>Par mail : <a href="mailto:guillaume.59.jean@gmail.com">guillaume.59.jean@gmail.com</a><br><br>Ou par courrier à l\'adresse : 165 rue du moulin, <br>Bissezeele, 59380 </p>';
+    document.getElementById('log').innerHTML = '<h3>Contactez-moi :</h3><p>Par téléphone : <a href="tel+330688506436">0688506436</a><br><br>Par mail : <a href="mailto:guillaume.59.jean@gmail.com">guillaume.59.jean@gmail.com</a><br><br>Ou par courrier à l\'adresse : 7 Avenue Denis Cordonnier (Appartement 3), <br>Lille, 59000 </p>';
 }
