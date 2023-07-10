@@ -14,12 +14,12 @@ window.onload = function () {
 }
 
 function mercureContent() {
-    document.getElementById('log').innerHTML = '<h2>Bienvenue à bord de la fusée <br>Curriculum I </h2><ul><h4>Tableau de bord :</h4><li>La température est de 0 kelvin</li><br><li>La terre se trouve à 1 UA du soleil</li><br><li>Nous voyageons à une vitesse de 17km/s</li><br><li>Et nous subissons les radiations du soleil.</li><h4>Je suis Guillaume et je serai votre pilote pour toute la durée de votre voyage.</h4></ul>';
+    document.getElementById('log').innerHTML = '<h2>Bienvenue sur le CV de Guillaume Jean </h2><ul><h4>Contexte de ce CV</h4><li>Projet réalisé en une journée de piscine</li><br><li>Interdiction d\'utiliser des frameworks</li><br><li>Obligation d\'utiliser du HTML, CSS et du JS</li>';
 }
 
 function venusContent() {
     var test = ""
-    document.getElementById('log').innerHTML = '<h3>Bonjour, Je m\' appelle Guillaume.</h3><p>J\'ai 21 ans.<br> Je suis étudiant à Epitech Lille.<br>Je suis passionné d\'astronomie et de nouvelles technologies.<br>J\'aime aussi les jeux vidéo ou encore le sport en particulier le basket.<br>Le domaine qui me passionne le plus en IT est l\'intéligence artificielle et c\'est pour ça que j\'aimerai en faire mon métier.<br><br>Je suis également titulaire du permis B de plus, je suis véhiculé.';
+    document.getElementById('log').innerHTML = '<h3>Bonjour, je m\' appelle Guillaume.</h3> <ul><li>J\'ai 22 ans</li><br>   <li>Je suis le cursus MSC-Pro à Epitech Lille en spécialité développement logiciel   </li><br>  <li>Je suis passionné par l\'astronomie et les nouvelles technologies</li><br>  <li>J\'aime jouer aux jeux vidéo, pratiquer ou regarder du sport (Foot, Basket...)</li><br> <li>Mon domaine favori en information est le développement d\'intélligence artificielle c\'est d\'ailleur dans cette branche que je souhaite particulièrement m\'investir.</li><br> <li>Enfin, je suis titulaire du permis B ainsi que véhiculé.</li></ul>';
 }
 
 function earthContent() {
@@ -27,19 +27,20 @@ function earthContent() {
 }
 
 function marsContent() {
-    document.getElementById('log').innerHTML = '<div class="Split"><h3>Mes compétences :</h3><ul class="dual"><h4>Langages de développement :</h4><li>C++ (Niveau avancé)</li><li>HTML (Niveau avancé)</li><li>CSS (Niveau avancé)</li><li>SQL (Niveau avancé)</li><li>PHP (Niveau avancé)</li><li>JavaScript (Niveau débutant)</li><li>Java (Niveau débutant)</li></ul><ul class="dual"><h4>Langues :</h4><li>Anglais (Niveau B2)</li><li>Espagnol (Niveau A2)</li></ul></div>';
+    document.getElementById('log').innerHTML = '<div class="Split"><h3>Mes compétences :</h3><ul class="dual"><h4>Langages de développement :</h4><li>C++ (Niveau avancé)</li><li>HTML (Niveau avancé)</li><li>CSS (Niveau avancé)</li><li>SQL (Niveau avancé)</li><li>PHP (Niveau avancé)</li><li>JavaScript (Niveau intermédiaire)</li><li>Java (Niveau avancé)</li><li>Python (Niveau avancé)</li><li>C# (Niveau avancé)</li></ul><ul class="dual" style="font-size:90%"><h4>Technos familières :</h4><br><li>SpringBoot</li><li>Symfony</li><li>NodeJS</li><li>.NET<li>React</li><li>MySQL</li><li>PostGreSQL</li><li>MongoDB</li><li>Kotlin</li><li>Flutter</li><li>Ansible</li><li>Docker</li></ul><ul class="dual"><h4>Langues :</h4><li>Anglais (Niveau B2)</li><li>Espagnol (Niveau A2)</li></ul></div>';
 }
 
 function jupiterContent() {
-    document.getElementById('log').innerHTML = '<h3>Mes expériences professionnelles :</h3><ul><li>07/2022 - 08/2022 : Assistant Administratif à Partenord Habitat <br> Villeneuve D\'Ascq - Archivage et aide aux employés</li><br><li>07/2021 - 08/2021 : Facteur polyvalent <br> Wormhout - Organisation de tournée et livraisons de courriers et de lettres</li><br><li>05/2021 - 06/2021 : Stage à Domiform\'<br>Biernes - Développement de site web en autonomie</li></ul>';
+    document.getElementById('log').innerHTML = '<h3>Mes expériences professionnelles :</h3><ul><li>09/01/2023 - Aujourd\'hui : Développeur Alternant à Anatox <br> Paris - Développement de logiciel (Python)</li><br><li>07/2022 - 08/2022 : Assistant Administratif à Partenord Habitat <br> Villeneuve D\'Ascq - Archivage et aide aux employés</li><br><li>07/2021 - 08/2021 : Facteur polyvalent <br> Wormhout - Organisation de tournée et livraisons de courriers et de lettres</li><br><li>05/2021 - 06/2021 : Stage à Domiform\'<br>Biernes - Développement de site web en autonomie</li></ul>';
 }
 
 function saturneContent() {
-    document.getElementById('log').innerHTML = '<h3>Mes projets :</h3><ul><li>09/2022 : CV en format HTML</li><br><li>01/2022 - 05/2022 : Projet barrière laser en partenariat avec le Cerema Est</li><br><li>06/2021 : Site web de <a href="https://www.domiform.fr/">Domiform\'</a> durant mon stage</li></ul>';
+    document.getElementById('log').innerHTML = '<h3>Mes projets :</h3><ul><li>09/2022 : CV en format HTML</li><br><li>01/2022 - 05/2022 : Projet barrière laser en partenariat avec le Cerema Est</li><br><li>06/2021 : Site web de <a style="color : rgb(32, 155, 226);" href="https://www.domiform.fr/">Domiform\'</a> durant mon stage</li></ul>';
 }
 
 function uranusContent() {
-    document.getElementById('log').innerHTML = '<h3>Mes liens :</h3><ul><li><a href="www.linkedin.com/in/guillaume-jean-13a01a1b4">LinkedIn</a></li><br><li><a href="https://github.com/GJean59380">GitHub</a></li></ul>';
+    document.getElementById('log').innerHTML = '<h3>Mes liens :</h3><ul><li><a style="color : rgb(32, 155, 226);" href="www.linkedin.com/in/guillaume-jean-13a01a1b4">LinkedIn</a></li><br><li><a style="color : rgb(32, 155, 226);" href="https://github.com/GJean59380">GitHub</a></li></ul>';
+    
 }
 
 function neptuneContent() {

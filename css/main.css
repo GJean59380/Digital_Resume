@@ -23,7 +23,7 @@ header h1 {
 }
 
 footer {
-    height: 4vh;
+    height: 5vh;
     width: 100%;
 }
 
@@ -46,9 +46,10 @@ main {
     width: 100%;
 }
 
-.left-content-reponsive{
+.left-content-responsive{
     display: none;
 }
+
 .left-content-reponsive.active{
     display: none;
 }
@@ -147,6 +148,7 @@ main {
 }
 
 .JS-output{
+    margin-left: 13%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -155,7 +157,6 @@ main {
 }
 
 .JS-output .dual{
-    margin-left: 15%;
     width: 30%;
     display: block;
 }
