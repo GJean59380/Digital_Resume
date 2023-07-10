@@ -49,8 +49,7 @@ main {
 .left-content-responsive{
     display: none;
 }
-
-.left-content-reponsive.active{
+.left-content-responsive.active{
     display: none;
 }
 .btn-off-responsive{
@@ -148,7 +147,6 @@ main {
 }
 
 .JS-output{
-    margin-left: 13%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -157,12 +155,13 @@ main {
 }
 
 .JS-output .dual{
+    margin-left: 15%;
     width: 30%;
     display: block;
 }
 
 .JS-output ul{
-    padding: 1% 2% 1% 2%;
+    padding: 1% 0% 1% 0%;
     width: 100%;
     display: block;
 }
@@ -183,4 +182,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+#side-window {
+    padding-left: 5%;
 }

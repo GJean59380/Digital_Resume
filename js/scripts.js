@@ -27,7 +27,7 @@ function earthContent() {
 }
 
 function marsContent() {
-    document.getElementById('log').innerHTML = '<div class="Split"><h3>Mes compétences :</h3><ul class="dual"><h4>Langages de développement :</h4><li>C++ (Niveau avancé)</li><li>HTML (Niveau avancé)</li><li>CSS (Niveau avancé)</li><li>SQL (Niveau avancé)</li><li>PHP (Niveau avancé)</li><li>JavaScript (Niveau intermédiaire)</li><li>Java (Niveau avancé)</li><li>Python (Niveau avancé)</li><li>C# (Niveau avancé)</li></ul><ul class="dual" style="font-size:90%"><h4>Technos familières :</h4><br><li>SpringBoot</li><li>Symfony</li><li>NodeJS</li><li>.NET<li>React</li><li>MySQL</li><li>PostGreSQL</li><li>MongoDB</li><li>Kotlin</li><li>Flutter</li><li>Ansible</li><li>Docker</li></ul><ul class="dual"><h4>Langues :</h4><li>Anglais (Niveau B2)</li><li>Espagnol (Niveau A2)</li></ul></div>';
+    document.getElementById('log').innerHTML = '<div class="Split"><h3 style="margin: 0; padding : 0;">Mes compétences :</h3><ul class="dual" style="font-size:70%;"><h4>Langages de développement :</h4><li>C++ (Niveau avancé)</li><li>HTML (Niveau avancé)</li><li>CSS (Niveau avancé)</li><li>SQL (Niveau avancé)</li><li>PHP (Niveau avancé)</li><li>JavaScript (Niveau intermédiaire)</li><li>Java (Niveau avancé)</li><li>Python (Niveau avancé)</li><li>C# (Niveau avancé)</li></ul><ul class="dual" style="font-size:70%;"><h4>Technos familières :</h4><br><li>SpringBoot</li><li>Symfony</li><li>NodeJS</li><li>.NET<li>React</li><li>MySQL</li><li>PostGreSQL</li><li>MongoDB</li><li>Kotlin</li><li>Flutter</li><li>Ansible</li><li>Docker</li></ul><ul class="dual" style="font-size:70%;"><h4>Langues :</h4><li>Anglais (Niveau B2)</li><li>Espagnol (Niveau A2)</li></ul></div>';
 }
 
 function jupiterContent() {
@@ -35,7 +35,7 @@ function jupiterContent() {
 }
 
 function saturneContent() {
-    document.getElementById('log').innerHTML = '<h3>Mes projets :</h3><ul><li>09/2022 : CV en format HTML</li><br><li>01/2022 - 05/2022 : Projet barrière laser en partenariat avec le Cerema Est</li><br><li>06/2021 : Site web de <a style="color : rgb(32, 155, 226);" href="https://www.domiform.fr/">Domiform\'</a> durant mon stage</li></ul>';
+    document.getElementById('log').innerHTML = '<h3>Mes projets :</h3><ul><li>21/05/2023 : Projet E-commerce Symfony</li><br><li>13/03/2023 : Projet Redditech (Mobile app React + NodeJS)</li><br><li>03/02/2023 : Projet IRC (MERN)</li><br><li>11/13/2022 : Projet Dashboard en SpringBoot</li><br><li>09/2022 : CV en format HTML</li><br><li>01/2022 - 05/2022 : Projet barrière laser en partenariat avec le Cerema Est</li><br><li>06/2021 : Site web de <a style="color : rgb(32, 155, 226);" href="https://www.domiform.fr/">Domiform\'</a> durant mon stage</li></ul>';
 }
 
 function uranusContent() {
